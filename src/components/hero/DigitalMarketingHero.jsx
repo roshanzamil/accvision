@@ -77,10 +77,10 @@ const DigitalMarketingHero = () => {
                 <div className="sec-title-wrapper">
                   <h2 className="sec-sub-title">Digital</h2>
                   <h3 className="sec-title title-left" ref={titleLeft}>
-                    Mark
+                    Acc
                   </h3>
                   <h3 className="sec-title title-right" ref={titleRight}>
-                    eting
+                    Vision
                   </h3>
                 </div>
                 <div className="hero__text-3">
