@@ -1,4 +1,5 @@
 
+
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
@@ -94,9 +95,7 @@ const DigitalMarketingHero = () => {
                 </div>
                 <div className="hero__text-3">
                   <p className="hero__text-animation" ref={heroTextAnim}>
-                    Static and dynamic secure code review can prevent a day
-                    before your product is even released. We can integrate with
-                    your dev environment
+                    We provide expert accounting, tax, and business support services to help you achieve financial clarity and success. Let us handle the numbers, so you can focus on growing your business.
                   </p>
                 </div>
                 <div className="scroll-down">
