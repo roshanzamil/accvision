@@ -3,7 +3,6 @@ import RootLayout from "@/components/common/layout/RootLayout";
 import DigitalMarketingHero from "@/components/hero/DigitalMarketingHero";
 import DigitalMarketingBrand from "@/components/brand/DigitalMarketingBrand";
 import DigitalMarketingAbout from "@/components/about/DigitalMarketingAbout";
-import DigitalMarketingService from "@/components/service/DigitalMarketingService";
 import DigitalMarketingProtfolio from "@/components/portfolio/DigitalMarketingProtfolio";
 import DigitalMarketingTestimonial from "@/components/testimonial/DigitalMarketingTestimonial";
 import DigitalMarketingWorkflow from "@/components/workflow/DigitalMarketingWorkflow";
@@ -24,7 +23,6 @@ export default function DigitalMarketing() {
           <DigitalMarketingBrand />
           <DigitalMarketingAbout />
           <CreativeAgencyService />
-          <DigitalMarketingService />
           <DigitalMarketingProtfolio />
           <DigitalMarketingTestimonial />
           <DigitalMarketingWorkflow />
