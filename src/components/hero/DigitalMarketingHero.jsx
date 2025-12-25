@@ -76,10 +76,18 @@ const DigitalMarketingHero = () => {
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
                   <h2 className="sec-sub-title">Accounting</h2>
-                  <h3 className="sec-title title-left" ref={titleLeft}>
+                  <h3
+                    className="sec-title title-left"
+                    ref={titleLeft}
+                    style={{ color: "#325841" }}
+                  >
                     Acc
                   </h3>
-                  <h3 className="sec-title title-right" ref={titleRight}>
+                  <h3
+                    className="sec-title title-right"
+                    ref={titleRight}
+                    style={{ color: "#4eba72" }}
+                  >
                     Vision
                   </h3>
                 </div>
