@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger, SplitText, chroma } from "@/plugins";
@@ -130,8 +131,8 @@ export default function Footer1() {
             <div className="footer__logo-3 pt-120">
               <Image
                 priority
-                width={150}
-                height={46}
+                width={250}
+                height={76}
                 src={SiteLogoWhite}
                 alt="Footer Logo"
               />
