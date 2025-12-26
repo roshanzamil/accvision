@@ -1,3 +1,4 @@
+
 {
   "nav": [
     {
@@ -301,21 +302,6 @@
         {
           "name": "Service Details",
           "link": "/service-details"
-        }
-      ]
-    },
-    {
-      "nav_name": "Team",
-      "link": "team",
-      "type": "dropdown",
-      "sub_nav": [
-        {
-          "name": "Team",
-          "link": "/team"
-        },
-        {
-          "name": "Team Details",
-          "link": "/team-details"
         }
       ]
     },
