@@ -89,7 +89,7 @@ const Service1 = () => {
   }, []);
   return (
     <>
-      <section className="service__area-6 pt-100">
+      <section className="service__area-6 pt-130">
         <div className="container">
           <div className="row inherit-row">
             <div className="col-xxl-12">
@@ -98,36 +98,38 @@ const Service1 = () => {
                   <ul className="service__list-6">
                     <li>
                       <a href="#service_1">
-                        Interaction <br />
-                        Design
+                        Accounting & <br />
+                        Bookkeeping
                       </a>
                     </li>
                     <li>
                       <a href="#service_2">
-                        Web & Mobile <br />
-                        Development
+                        Tax <br />
+                        Services
                       </a>
                     </li>
                     <li>
                       <a href="#service_3">
-                        Motion & Branding <br />
-                        Design
+                        Business <br />
+                        Setup
                       </a>
                     </li>
                     <li>
                       <a href="#service_4">
-                        Digital <br /> Maketing
+                        Trade License <br />
+                        Renewal
                       </a>
                     </li>
                     <li>
                       <a href="#service_5">
-                        Concept and <br />
-                        Strategy
+                        Business <br />
+                        Support
                       </a>
                     </li>
                     <li>
                       <a href="#service_6">
-                        Illustrations & <br /> Prototype
+                        Financial <br />
+                        Advisory
                       </a>
                     </li>
                   </ul>
@@ -202,22 +204,15 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          User paths or user flows functional models
+                          Accounting & Bookkeeping
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          We provide meticulous accounting and bookkeeping to ensure your financials are accurate and up-to-date.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
+                          <li>+ Financial Statements</li>
+                          <li>+ General Ledger</li>
+                          <li>+ Payroll</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link
@@ -248,22 +243,15 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          Web & Mobile Development
+                          Tax Services
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          Our expert tax services help you navigate complex tax laws and minimize your tax liabilities.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
+                          <li>+ Tax Planning</li>
+                          <li>+ Tax Preparation</li>
+                          <li>+ IRS Representation</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link
@@ -294,22 +282,15 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          UMotion & Branding Design
+                          Business Setup
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          We assist with business registration and setup to get your new venture off to a strong start.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
+                          <li>+ Entity Selection</li>
+                          <li>+ Registration</li>
+                          <li>+ Licensing</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link
@@ -340,22 +321,15 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          User paths or user flows functional models
+                          Trade License Renewal
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          We handle the annual renewal of your trade license, ensuring your business remains compliant.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
+                          <li>+ Timely Renewals</li>
+                          <li>+ Documentation</li>
+                          <li>+ Compliance</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link
@@ -386,22 +360,15 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          User paths or user flows functional models
+                          Business Support
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          Streamline your operations with our business support services and internal control implementation.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
+                          <li>+ Process Improvement</li>
+                          <li>+ Internal Controls</li>
+                          <li>+ Strategic Planning</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link
@@ -432,22 +399,15 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          Illustrations & Prototype
+                          Financial Advisory
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                           Our advisory services provide the insights you need to achieve your financial objectives and grow your business.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
+                          <li>+ Budgeting & Forecasting</li>
+                          <li>+ Financial Analysis</li>
+                          <li>+ Strategic Advice</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link
