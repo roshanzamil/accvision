@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+
+import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
@@ -7,6 +8,7 @@ import Service12 from "../../../public/assets/imgs/service/2.jpg";
 import Service13 from "../../../public/assets/imgs/service/3.jpg";
 import Service14 from "../../../public/assets/imgs/service/4.jpg";
 import Service15 from "../../../public/assets/imgs/service/5.jpg";
+import Service16 from "../../../public/assets/imgs/service/6.jpg";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -89,7 +91,7 @@ const Service1 = () => {
   }, []);
   return (
     <>
-      <section className="service__area-6 pt-130">
+      <section className="service__area-6 pt-100">
         <div className="container">
           <div className="row inherit-row">
             <div className="col-xxl-12">
@@ -180,7 +182,7 @@ const Service1 = () => {
                     <Image
                       priority
                       style={{ width: "auto", height: "auto" }}
-                      src={Service14}
+                      src={Service16}
                       alt="Service Image"
                     />
                   </div>
@@ -392,7 +394,7 @@ const Service1 = () => {
                         <Image
                           priority
                           style={{ width: "auto", height: "auto" }}
-                          src={Service14}
+                          src={Service16}
                           alt="Service Image"
                         />
                       </div>
@@ -433,3 +435,5 @@ const Service1 = () => {
 };
 
 export default Service1;
+
+    
