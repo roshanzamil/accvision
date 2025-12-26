@@ -18,8 +18,7 @@ const AboutHero = () => {
             <div className="col-xxl-12">
               <div className="hero__about-content">
                 <h1 className="hero-title animation__word_come" ref={wordAnim}>
-                  We’re a full service creative and digital agency, working
-                  globally with leargest brands.
+                  We are your dedicated partners in financial clarity, providing expert accounting and business solutions to drive your success.
                 </h1>
                 <div className="hero__about-info">
                   <div className="hero__about-btn">
@@ -28,17 +27,15 @@ const AboutHero = () => {
                         href="/service"
                         className="wc-btn-primary btn-hover btn-item"
                       >
-                        <span></span> Trends & <br />
-                        technology
+                        <span></span> Our <br />
+                        Services
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="hero__about-text title-anim">
                     <p>
-                      {
-                        "Think of the world's most iconica and successful brands easily findable, impactful. Interactional and exceptional designs. Our story takes beginning in 2013"
-                      }
+                      At Accvision, we believe that strong financial management is the backbone of any successful business. Our journey began with a mission to empower entrepreneurs and established companies alike with clear, actionable financial insights.
                     </p>
                   </div>
                   <div className="hero__about-award">
