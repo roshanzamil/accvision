@@ -1,3 +1,4 @@
+
 import DigitalAgencyBrand from "@/components/brand/DigitalAgencyBrand";
 import RootLayout from "@/components/common/layout/RootLayout";
 import AboutCounter from "@/components/counter/AboutCounter";
@@ -17,7 +18,7 @@ const AboutDark = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <RootLayout defaultMode="dark">
+        <RootLayout header="header1" footer="footer1" defaultMode="dark">
           <AboutHero />
           <AboutStory />
           <AboutCounter />

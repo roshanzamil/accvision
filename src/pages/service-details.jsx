@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
 import ServiceDetailsDevelopment from "@/components/development/ServiceDetailsDevelopment";
@@ -15,7 +16,7 @@ const ServiceDetails = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <RootLayout header="header3" footer="footer3">
+        <RootLayout header="header1" footer="footer1">
           <ServiceDetailsDevelopment />
           <ServiceDetailsWorkflow />
           <ServiceDetailsService />
