@@ -19,7 +19,7 @@ const Faq1 = () => {
                   FAQ
                 </h2>
                 <p className="">
-                  Frequently asked question (FAQ) <br /> pages to find answars.
+                  Frequently asked questions to help you understand our services.
                 </p>
               </div>
             </div>
@@ -38,22 +38,12 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingOne"
                     >
-                      Design should enrich our day
+                      What services do you offer?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
                       <p>
-                        People know what an FAQ is, so make that your page
-                        title. Don’t overcomplicate things by calling it “Good
-                        to Know” or “More Info”. Sometimes people put the
-                        frequently asked questions section on their Contact
-                        page, but you can create your own page and put it right
-                        in your website navigation menu or website footer so
-                        it’s easy to find. Getting a straight, quick answer to
-                        your question is a relief. So keep answers to a short
-                        paragraph if you can, less than 100 words. Answer the
-                        entire question in the FAQ without linking away to
-                        another page
+                        We offer a comprehensive suite of financial services including accounting and bookkeeping, tax planning and preparation, business setup, trade license renewal, and business support services. Our goal is to be your one-stop-shop for all your business's financial needs.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -63,22 +53,12 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingTwo"
                     >
-                      Bring their individual experience and creative
+                      What is your pricing structure?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
                       <p>
-                        People know what an FAQ is, so make that your page
-                        title. Don’t overcomplicate things by calling it “Good
-                        to Know” or “More Info”. Sometimes people put the
-                        frequently asked questions section on their Contact
-                        page, but you can create your own page and put it right
-                        in your website navigation menu or website footer so
-                        it’s easy to find. Getting a straight, quick answer to
-                        your question is a relief. So keep answers to a short
-                        paragraph if you can, less than 100 words. Answer the
-                        entire question in the FAQ without linking away to
-                        another page
+                        Our pricing is tailored to the specific needs of your business. We offer a variety of packages, from monthly subscriptions for ongoing services to one-time fees for specific projects. Contact us for a custom quote that aligns with your budget and requirements.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -88,22 +68,12 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingThree"
                     >
-                      Human centred design to challenges
+                      Who are your typical clients?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
                       <p>
-                        People know what an FAQ is, so make that your page
-                        title. Don’t overcomplicate things by calling it “Good
-                        to Know” or “More Info”. Sometimes people put the
-                        frequently asked questions section on their Contact
-                        page, but you can create your own page and put it right
-                        in your website navigation menu or website footer so
-                        it’s easy to find. Getting a straight, quick answer to
-                        your question is a relief. So keep answers to a short
-                        paragraph if you can, less than 100 words. Answer the
-                        entire question in the FAQ without linking away to
-                        another page
+                        We work with a diverse range of clients, from startups and small businesses to established enterprises across various industries. Our expertise is adaptable to any business looking to strengthen its financial operations and achieve sustainable growth.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -113,22 +83,12 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingFour"
                     >
-                      Design should enrich our day
+                      How do you ensure data security?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
                       <p>
-                        People know what an FAQ is, so make that your page
-                        title. Don’t overcomplicate things by calling it “Good
-                        to Know” or “More Info”. Sometimes people put the
-                        frequently asked questions section on their Contact
-                        page, but you can create your own page and put it right
-                        in your website navigation menu or website footer so
-                        it’s easy to find. Getting a straight, quick answer to
-                        your question is a relief. So keep answers to a short
-                        paragraph if you can, less than 100 words. Answer the
-                        entire question in the FAQ without linking away to
-                        another page
+                        We take data security very seriously. We use industry-leading encryption and security protocols to protect your financial information. Our team is trained in best practices for confidentiality and data protection to ensure your information is always safe.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -138,22 +98,12 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingFive"
                     >
-                      Developing core web applications
+                      How can I get started with Accvision?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
                       <p>
-                        People know what an FAQ is, so make that your page
-                        title. Don’t overcomplicate things by calling it “Good
-                        to Know” or “More Info”. Sometimes people put the
-                        frequently asked questions section on their Contact
-                        page, but you can create your own page and put it right
-                        in your website navigation menu or website footer so
-                        it’s easy to find. Getting a straight, quick answer to
-                        your question is a relief. So keep answers to a short
-                        paragraph if you can, less than 100 words. Answer the
-                        entire question in the FAQ without linking away to
-                        another page
+                        Getting started is easy! Simply reach out to us through our contact page to schedule a free consultation. We'll discuss your business needs, answer your questions, and create a customized plan to help you achieve your financial goals.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

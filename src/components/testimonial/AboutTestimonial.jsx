@@ -1,3 +1,4 @@
+
 import { FreeMode, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -42,17 +43,13 @@ const AboutTestimonial = () => {
                       <div className="testimonial__slide">
                         <div className="testimonial__inner-2">
                           <h2 className="testimonial__title-2">
-                            Amazing digital service
+                            Incredible Accounting Support
                           </h2>
                           <p className="testimonial__text-2">
-                            We were there right at the beginning just when the
-                            concept for search engine optimisation taking office
-                            and the full of internet. So wewe’ve grown to employ
-                            than 50 talented specialists with diverse
-                            experiences and broad skill sets of huge markers.
+                            Juggling everything as a new cafe owner was overwhelming. Accvision stepped in and completely streamlined our bookkeeping and payroll. Their team is responsive, professional, and genuinely cares about our success. I can't imagine running my business without them.
                           </p>
-                          <h3 className="testimonial__author">Adam Syndera</h3>
-                          <h4 className="testimonial__role">CEO, Agency</h4>
+                          <h3 className="testimonial__author">Sarah Chen</h3>
+                          <h4 className="testimonial__role">Founder, The Bloom Cafe</h4>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -61,17 +58,13 @@ const AboutTestimonial = () => {
                       <div className="testimonial__slide">
                         <div className="testimonial__inner-2">
                           <h2 className="testimonial__title-2">
-                            Amazing digital service
+                            Strategic Tax Savings
                           </h2>
                           <p className="testimonial__text-2">
-                            We were there right at the beginning just when the
-                            concept for search engine optimisation taking office
-                            and the full of internet. So wewe’ve grown to employ
-                            than 50 talented specialists with diverse
-                            experiences and broad skill sets of huge markers.
+                            Tax planning was always a major source of stress for our company. Accvision's strategic advice not only made the process painless but also identified significant savings we had been missing for years. Their expertise is truly top-tier.
                           </p>
-                          <h3 className="testimonial__author">Adam Syndera</h3>
-                          <h4 className="testimonial__role">CEO, Agency</h4>
+                          <h3 className="testimonial__author">Michael Rodriguez</h3>
+                          <h4 className="testimonial__role">Director, R&D Innovations Inc.</h4>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -80,17 +73,13 @@ const AboutTestimonial = () => {
                       <div className="testimonial__slide">
                         <div className="testimonial__inner-2">
                           <h2 className="testimonial__title-2">
-                            Amazing digital service
+                            Effortless Business Setup
                           </h2>
                           <p className="testimonial__text-2">
-                            We were there right at the beginning just when the
-                            concept for search engine optimisation taking office
-                            and the full of internet. So wewe’ve grown to employ
-                            than 50 talented specialists with diverse
-                            experiences and broad skill sets of huge markers.
+                            Starting my gallery felt like navigating a maze of paperwork. Accvision handled our entire business setup, from registration to licensing, with incredible efficiency. They took the complexity out of the process, letting me focus on the art.
                           </p>
-                          <h3 className="testimonial__author">Adam Syndera</h3>
-                          <h4 className="testimonial__role">CEO, Agency</h4>
+                          <h3 className="testimonial__author">Emily Davis</h3>
+                          <h4 className="testimonial__role">Owner, Artisan's Gallery</h4>
                         </div>
                       </div>
                     </SwiperSlide>
