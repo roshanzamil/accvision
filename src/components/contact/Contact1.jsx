@@ -26,9 +26,7 @@ const Contact1 = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="contact__text">
                 <p>
-                  {
-                    "Great! We're excited to hear from you and let's start something special togerter. call us for any inquery."
-                  }
+                  Great! We're excited to hear from you and let's start something special togerter. call us for any inquery.
                 </p>
               </div>
             </div>
@@ -40,8 +38,7 @@ const Contact1 = () => {
                   className="sub-title-anim-top animation__word_come"
                   ref={wordAnim}
                 >
-                  {"Don't be afraid man ! "}
-                  <br />
+                  Don't be afraid man !<br />
                   say hello
                 </h3>
                 <ul>
