@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Solution from "../../../public/assets/imgs/thumb/solution.png";
@@ -97,11 +98,10 @@ const ServiceHero = () => {
 
           <div className="solution__mid">
             <h1 className="solution__title animation__char_come" ref={charAnim}>
-              Digital Solution
+              Financial Clarity
             </h1>
             <p>
-              We’re designing digital experiences that enrich human lives and it
-              helps to grow your business globally trends.
+              We provide a comprehensive suite of accounting and business support services, tailored to drive your financial success.
             </p>
           </div>
 
