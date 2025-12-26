@@ -135,8 +135,7 @@ export default function Footer1() {
                 alt="Footer Logo"
               />
               <p>
-                When do they work well, and when do they on us and finally, when
-                do we actually need how can we avoid them.
+                Accvision provides clarity and expertise in accounting, tax, and business support. We empower your financial success, so you can focus on what you do best—growing your business.
               </p>
             </div>
             <div className="footer__social-3">
