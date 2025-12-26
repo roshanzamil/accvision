@@ -98,6 +98,14 @@ const Blog1 = () => {
                           src={blog.image}
                           alt={blog.title}
                         />
+                        <Image
+                          priority
+                          width={440}
+                          height={330}
+                          className="image-box__item"
+                          src={blog.image}
+                          alt={blog.title}
+                        />
                       </div>
                     </Link>
                   </div>

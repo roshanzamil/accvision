@@ -91,6 +91,14 @@ const DigitalMarketingBlog = () => {
                           src={blog.image}
                           alt={blog.title}
                         />
+                         <Image
+                          priority
+                          width={580}
+                          height={430}
+                          className="image-box__item"
+                          src={blog.image}
+                          alt={blog.title}
+                        />
                       </div>
                     </Link>
                   </div>

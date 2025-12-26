@@ -83,6 +83,15 @@ const BlogRelated = ({ blogs }) => {
                             width={440}
                             height={330}
                           />
+                           <Image
+                            priority
+                            style={{ width: "auto", height: "auto" }}
+                            className="image-box__item"
+                            src={blog.image}
+                            alt={blog.title}
+                            width={440}
+                            height={330}
+                          />
                         </div>
                       </Link>
                     </div>
