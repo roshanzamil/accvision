@@ -57,7 +57,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
         <div className="offcanvas__body">
           <div className="offcanvas__left">
             <div className="offcanvas__logo">
-              <Link href="/digital-marketing">
+              <Link href="/">
                 <Image
                   priority
                   style={{ width: "auto", height: "auto" }}
@@ -112,7 +112,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                 <ul className="menu-anim title" ref={headerTitle}>
                   <li>
                     <div className="header_title">
-                      <Link href={"/digital-marketing"}>HOME</Link>
+                      <Link href={"/"}>HOME</Link>
                       <div className="accordian-btn">
                         {accordion === 1 ? (
                           <a onClick={() => openData(0)}>-</a>
