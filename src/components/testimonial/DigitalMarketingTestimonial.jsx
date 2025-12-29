@@ -185,6 +185,7 @@ const DigitalMarketingTestimonial = () => {
             src={Testimonial31}
             alt="testimonial Image"
             className="testimonial3__img"
+            style={{objectFit: "cover"}}
           />
           <Image
             priority
@@ -193,6 +194,7 @@ const DigitalMarketingTestimonial = () => {
             src={Testimonial32}
             alt="testimonial Image"
             className="testimonial3__img-2"
+            style={{objectFit: "cover"}}
           />
           <Image
             priority
@@ -201,6 +203,7 @@ const DigitalMarketingTestimonial = () => {
             src={Testimonial33}
             alt="testimonial Image"
             className="testimonial3__img-3"
+            style={{objectFit: "cover"}}
           />
           <Image
             priority
@@ -209,6 +212,7 @@ const DigitalMarketingTestimonial = () => {
             src={Testimonial34}
             alt="testimonial Image"
             className="testimonial3__img-4"
+            style={{objectFit: "cover"}}
           />
           <Image
             priority
@@ -217,6 +221,7 @@ const DigitalMarketingTestimonial = () => {
             src={Testimonial35}
             alt="testimonial Image"
             className="testimonial3__img-5"
+            style={{objectFit: "cover"}}
           />
           <Image
             priority
@@ -225,6 +230,7 @@ const DigitalMarketingTestimonial = () => {
             src={Testimonial36}
             alt="testimonial Image"
             className="testimonial3__img-6"
+            style={{objectFit: "cover"}}
           />
         </div>
       </section>
@@ -233,3 +239,5 @@ const DigitalMarketingTestimonial = () => {
 };
 
 export default DigitalMarketingTestimonial;
+
+    
