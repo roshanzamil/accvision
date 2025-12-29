@@ -44,7 +44,7 @@ const AboutHero = () => {
                       width={126}
                       height={82}
                       src={Award}
-                      alt="Best Studio Award"
+                      alt="Award for Best Financial Studio"
                     />
                   </div>
                 </div>

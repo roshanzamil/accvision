@@ -8,8 +8,8 @@ const Blog = () => {
   return (
     <>
       <Head>
-        <title>Blog</title>
-        <meta name="description" content="Blog Description" />
+        <title>Accvision Blog | Accounting, Tax & Business Insights</title>
+        <meta name="description" content="Read our blog for the latest perspectives on accounting, tax, and business strategy. We are passionate about making financial knowledge accessible to everyone." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

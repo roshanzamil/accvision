@@ -9,8 +9,8 @@ const Service = () => {
   return (
     <>
       <Head>
-        <title>Service</title>
-        <meta name="description" content="Service Description" />
+        <title>Our Services | Accvision Accounting & Business Support</title>
+        <meta name="description" content="Explore our comprehensive suite of financial services including accounting, bookkeeping, tax planning, business setup, and strategic advisory." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

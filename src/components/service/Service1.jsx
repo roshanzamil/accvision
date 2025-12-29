@@ -143,7 +143,7 @@ const Service1 = () => {
                       priority
                       style={{ width: "auto", height: "auto" }}
                       src={Service11}
-                      alt="Service Image"
+                      alt="Accounting & Bookkeeping Service"
                     />
                   </div>
                   <div className="service__image">
@@ -151,7 +151,7 @@ const Service1 = () => {
                       priority
                       style={{ width: "auto", height: "auto" }}
                       src={Service12}
-                      alt="Service Image"
+                      alt="Tax Services"
                     />
                   </div>
                   <div className="service__image">
@@ -159,7 +159,7 @@ const Service1 = () => {
                       priority
                       style={{ width: "auto", height: "auto" }}
                       src={Service13}
-                      alt="Service Image"
+                      alt="Business Setup Service"
                     />
                   </div>
                   <div className="service__image">
@@ -167,7 +167,7 @@ const Service1 = () => {
                       priority
                       style={{ width: "auto", height: "auto" }}
                       src={Service14}
-                      alt="Service Image"
+                      alt="Trade License Renewal Service"
                     />
                   </div>
                   <div className="service__image">
@@ -175,7 +175,7 @@ const Service1 = () => {
                       priority
                       style={{ width: "auto", height: "auto" }}
                       src={Service15}
-                      alt="Service Image"
+                      alt="Business Support Service"
                     />
                   </div>
                   <div className="service__image">
@@ -183,7 +183,7 @@ const Service1 = () => {
                       priority
                       style={{ width: "auto", height: "auto" }}
                       src={Service16}
-                      alt="Service Image"
+                      alt="Financial Advisory Service"
                     />
                   </div>
                 </div>
@@ -200,7 +200,7 @@ const Service1 = () => {
                           priority
                           style={{ width: "auto", height: "auto" }}
                           src={Service11}
-                          alt="Service Image"
+                          alt="Accounting & Bookkeeping"
                         />
                       </div>
 
@@ -239,7 +239,7 @@ const Service1 = () => {
                           priority
                           style={{ width: "auto", height: "auto" }}
                           src={Service12}
-                          alt="Service Image"
+                          alt="Tax Services"
                         />
                       </div>
 
@@ -278,7 +278,7 @@ const Service1 = () => {
                           priority
                           style={{ width: "auto", height: "auto" }}
                           src={Service13}
-                          alt="Service Image"
+                          alt="Business Setup"
                         />
                       </div>
 
@@ -317,7 +317,7 @@ const Service1 = () => {
                           priority
                           style={{ width: "auto", height: "auto" }}
                           src={Service14}
-                          alt="Service Image"
+                          alt="Trade License Renewal"
                         />
                       </div>
 
@@ -356,7 +356,7 @@ const Service1 = () => {
                           priority
                           style={{ width: "auto", height: "auto" }}
                           src={Service15}
-                          alt="Service Image"
+                          alt="Business Support"
                         />
                       </div>
 
@@ -395,7 +395,7 @@ const Service1 = () => {
                           priority
                           style={{ width: "auto", height: "auto" }}
                           src={Service16}
-                          alt="Service Image"
+                          alt="Financial Advisory"
                         />
                       </div>
 

@@ -13,6 +13,7 @@ export default function Document() {
           type="image/x-icon"
           href="assets/imgs/logo/favicon.png"
         />
+        <meta name="theme-color" content="#325841" />
       </Head>
       <body>
         <Main />

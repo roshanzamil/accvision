@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact</title>
-        <meta name="description" content="Contact Description" />
+        <title>Contact Accvision | Get a Free Consultation</title>
+        <meta name="description" content="Get in touch with Accvision for expert accounting, tax, and business support services. Schedule a free consultation to discuss your financial goals." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

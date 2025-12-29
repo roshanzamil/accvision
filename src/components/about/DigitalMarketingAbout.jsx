@@ -34,7 +34,7 @@ const DigitalMarketingAbout = () => {
                   priority
                   style={{ width: "auto", height: "auto" }}
                   src={About31}
-                  alt="About Thumbnail"
+                  alt="Team of dedicated professionals at Accvision"
                   data-speed="auto"
                   className="smootherReset768"
                 />

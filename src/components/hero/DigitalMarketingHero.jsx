@@ -91,20 +91,20 @@ const DigitalMarketingHero = () => {
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
                   <h2 className="sec-sub-title" ref={subTitleRef} style={{ color: "#145274" }}>Accounting</h2>
-                  <h3
+                  <h1
                     className="sec-title title-left"
                     ref={titleLeft}
                     style={{ color: "#325841", fontWeight: 100 }}
                   >
                     Acc
-                  </h3>
-                  <h3
+                  </h1>
+                  <h1
                     className="sec-title title-right"
                     ref={titleRight}
                     style={{ color: "#4eba72" }}
                   >
                     Vision
-                  </h3>
+                  </h1>
                 </div>
                 <div className="hero__text-3">
                   <p className="hero__text-animation" ref={heroTextAnim}>
@@ -117,7 +117,7 @@ const DigitalMarketingHero = () => {
                       priority
                       style={{ width: "auto", height: "auto" }}
                       src={ArrowDownSm}
-                      alt="arrow icon"
+                      alt="scroll down arrow"
                     />
                   </button>
                 </div>
@@ -164,7 +164,7 @@ const DigitalMarketingHero = () => {
             width={1195}
             style={{ height: "auto" }}
             src={Hero31}
-            alt="Hero Image"
+            alt="Hero image for Accvision showing a modern office"
             className="hero3-img"
           />
         </div>

@@ -183,7 +183,7 @@ const DigitalMarketingTestimonial = () => {
             width={170}
             height={170}
             src={Testimonial31}
-            alt="testimonial Image"
+            alt="Happy client of Accvision"
             className="testimonial3__img"
             style={{objectFit: "cover"}}
           />
@@ -192,7 +192,7 @@ const DigitalMarketingTestimonial = () => {
             width={90}
             height={90}
             src={Testimonial32}
-            alt="testimonial Image"
+            alt="Satisfied customer"
             className="testimonial3__img-2"
             style={{objectFit: "cover"}}
           />
@@ -201,7 +201,7 @@ const DigitalMarketingTestimonial = () => {
             width={110}
             height={110}
             src={Testimonial33}
-            alt="testimonial Image"
+            alt="Pleased business owner"
             className="testimonial3__img-3"
             style={{objectFit: "cover"}}
           />
@@ -210,7 +210,7 @@ const DigitalMarketingTestimonial = () => {
             width={230}
             height={230}
             src={Testimonial34}
-            alt="testimonial Image"
+            alt="Client portrait"
             className="testimonial3__img-4"
             style={{objectFit: "cover"}}
           />
@@ -219,7 +219,7 @@ const DigitalMarketingTestimonial = () => {
             width={180}
             height={180}
             src={Testimonial35}
-            alt="testimonial Image"
+            alt="Another happy client"
             className="testimonial3__img-5"
             style={{objectFit: "cover"}}
           />
@@ -228,7 +228,7 @@ const DigitalMarketingTestimonial = () => {
             width={140}
             height={140}
             src={Testimonial36}
-            alt="testimonial Image"
+            alt="Customer smiling"
             className="testimonial3__img-6"
             style={{objectFit: "cover"}}
           />
@@ -239,5 +239,3 @@ const DigitalMarketingTestimonial = () => {
 };
 
 export default DigitalMarketingTestimonial;
-
-    

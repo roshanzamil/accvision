@@ -13,7 +13,7 @@ export default function LogoItem() {
             width={136}
             height={45}
             src={LogoBlack}
-            alt="Site Logo"
+            alt="Accvision Logo Dark"
           />
         </Link>
         <Link href={"/"} className="logo-light">
@@ -22,7 +22,7 @@ export default function LogoItem() {
             width={100}
             height={33}
             src={LogoWhite2}
-            alt="Site Logo"
+            alt="Accvision Logo Light"
           />
         </Link>
       </div>

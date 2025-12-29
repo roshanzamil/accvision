@@ -44,7 +44,7 @@ const AboutStory = () => {
                   width={300}
                   style={{ height: "auto" }}
                   src={Story1}
-                  alt="Story Thumbnail"
+                  alt="A finance professional at work"
                   className="w-100"
                 />
               </div>
@@ -56,7 +56,7 @@ const AboutStory = () => {
                   width={520}
                   style={{ height: "auto" }}
                   src={Story2}
-                  alt="Story Thumbnail"
+                  alt="Team collaboration in a modern office"
                   data-speed="auto"
                 />
               </div>
@@ -68,14 +68,14 @@ const AboutStory = () => {
                   width={230}
                   style={{ height: "auto" }}
                   src={Story3}
-                  alt="Story Thumbnail"
+                  alt="Detailed view of financial charts"
                 />
                 <Image
                   priority
                   width={410}
                   style={{ height: "auto" }}
                   src={Story4}
-                  alt="Story Thumbnail"
+                  alt="Business handshake symbolizing partnership"
                 />
               </div>
             </div>

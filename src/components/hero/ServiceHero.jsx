@@ -82,7 +82,7 @@ const ServiceHero = () => {
                 width={435}
                 style={{ height: "auto" }}
                 src={Solution}
-                alt="Solution Image"
+                alt="Financial solution image"
               />
             </div>
             <div className="solution__img-2">
@@ -91,7 +91,7 @@ const ServiceHero = () => {
                 width={220}
                 style={{ height: "auto" }}
                 src={Solution2}
-                alt="Solution Image"
+                alt="Business meeting for financial planning"
               />
             </div>
           </div>
@@ -112,7 +112,7 @@ const ServiceHero = () => {
                 width={459}
                 style={{ height: "auto" }}
                 src={Solution3}
-                alt="Solution Image"
+                alt="Man reviewing financial documents"
               />
             </div>
           </div>
@@ -138,7 +138,7 @@ const ServiceHero = () => {
             width={41}
             style={{ height: "auto" }}
             src={Icon1}
-            alt="Shape Image"
+            alt="Decorative Shape 1"
             className="shape-1"
           />
           <Image
@@ -146,7 +146,7 @@ const ServiceHero = () => {
             width={22}
             style={{ height: "auto" }}
             src={Icon2}
-            alt="Shape Image"
+            alt="Decorative Shape 2"
             className="shape-2"
           />
           <Image
@@ -154,7 +154,7 @@ const ServiceHero = () => {
             width={38}
             style={{ height: "auto" }}
             src={Icon3}
-            alt="Shape Image"
+            alt="Decorative Shape 3"
             className="shape-3"
           />
           <Image
@@ -162,7 +162,7 @@ const ServiceHero = () => {
             width={62}
             style={{ height: "auto" }}
             src={Icon4}
-            alt="Shape Image"
+            alt="Decorative Shape 4"
             className="shape-4"
           />
           <Image
@@ -170,7 +170,7 @@ const ServiceHero = () => {
             width={94}
             style={{ height: "auto" }}
             src={Icon5}
-            alt="Shape Image"
+            alt="Decorative Shape 5"
             className="shape-5"
           />
         </div>

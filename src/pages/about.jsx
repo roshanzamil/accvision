@@ -1,6 +1,5 @@
 
 
-import DigitalAgencyBrand from "@/components/brand/DigitalAgencyBrand";
 import RootLayout from "@/components/common/layout/RootLayout";
 import AboutCounter from "@/components/counter/AboutCounter";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
@@ -14,8 +13,8 @@ const About = () => {
   return (
     <div>
       <Head>
-        <title>About</title>
-        <meta name="description" content="About Description" />
+        <title>About Accvision | Our Mission, Team, and Values</title>
+        <meta name="description" content="Learn about Accvision's mission to provide financial clarity and expert support. Meet the dedicated team of professionals passionate about your business's success." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
@@ -23,7 +22,6 @@ const About = () => {
           <AboutHero />
           <AboutStory />
           <AboutCounter />
-          <DigitalAgencyBrand />
           <AboutTestimonial />
           <Faq1 />
           <DigitalAgencyCTA />

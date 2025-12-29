@@ -250,7 +250,7 @@ const DigitalMarketingWorkflow = () => {
                       priority
                       style={{ width: "100%", height: "auto" }}
                       src={Counter3}
-                      alt="Counter Image"
+                      alt="Image illustrating business growth and success"
                     />
                   </div>
                 </div>
