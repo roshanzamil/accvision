@@ -217,13 +217,14 @@ const Service1 = () => {
                           <li>+ Payroll</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <div
+                          <Link
+                            href="/contact"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
                             <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
-                          </div>
+                            quotes <i className="fa-solid fa-arrow-right"></i>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -255,13 +256,14 @@ const Service1 = () => {
                           <li>+ IRS Representation</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <div
+                           <Link
+                            href="/contact"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
                             <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
-                          </div>
+                            quotes <i className="fa-solid fa-arrow-right"></i>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -293,13 +295,14 @@ const Service1 = () => {
                           <li>+ Licensing</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <div
+                           <Link
+                            href="/contact"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
                             <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
-                          </div>
+                            quotes <i className="fa-solid fa-arrow-right"></i>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -331,13 +334,14 @@ const Service1 = () => {
                           <li>+ Compliance</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <div
+                           <Link
+                            href="/contact"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
                             <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
-                          </div>
+                            quotes <i className="fa-solid fa-arrow-right"></i>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -369,13 +373,14 @@ const Service1 = () => {
                           <li>+ Strategic Planning</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <div
+                           <Link
+                            href="/contact"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
                             <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
-                          </div>
+                            quotes <i className="fa-solid fa-arrow-right"></i>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -407,13 +412,14 @@ const Service1 = () => {
                           <li>+ Strategic Advice</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <div
+                           <Link
+                            href="/contact"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
                             <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
-                          </div>
+                            quotes <i className="fa-solid fa-arrow-right"></i>
+                          </Link>
                         </div>
                       </div>
                     </div>
