@@ -16,39 +16,65 @@ const BlogDetails1 = ({ blog }) => {
     <section className="blog__area-6 blog__animation">
       <div className="container g-0 line pt-110 pb-110">
         <span className="line-3"></span>
-        <div className="row">
-          <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
-            <div className="blog__content">
-              <h1 className="blog__title">{blog.title}</h1>
-              <div className="blog__meta">
-                <span>{blog.date}</span> | <span>{blog.category}</span>
-              </div>
-              <div className="blog__img-wrapper">
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  width={850}
-                  height={560}
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-              <div className="blog__text">
-                <p>{blog.content.introduction}</p>
-                {blog.content.points.map((point, index) => (
-                  <div key={index}>
-                    <h2>{point.title}</h2>
-                    <p>{point.text}</p>
-                  </div>
-                ))}
-                <p>{blog.content.conclusion}</p>
-              </div>
+        <div className="blog-details-content-wrapper">
+          <div className="blog__content">
+            <h1 className="blog__title">{blog.title}</h1>
+            <div className="blog__meta">
+              <span>{blog.date}</span> | <span>{blog.category}</span>
             </div>
-          </div>
-          <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-            {/* Sidebar can be added here if needed */}
+            <div className="blog__img-wrapper">
+              <Image
+                src={blog.image}
+                alt={blog.title}
+                width={850}
+                height={560}
+                style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
+              />
+            </div>
+            <div className="blog__text">
+              <p>{blog.content.introduction}</p>
+              {blog.content.points.map((point, index) => (
+                <div key={index}>
+                  <h2>{point.title}</h2>
+                  <p>{point.text}</p>
+                </div>
+              ))}
+              <p>{blog.content.conclusion}</p>
+            </div>
           </div>
         </div>
       </div>
+      <style jsx>{`
+        .blog-details-content-wrapper {
+          max-width: 850px;
+          margin: 0 auto;
+          padding: 0 15px;
+        }
+        .blog__content .blog__title {
+          font-size: 42px;
+          font-weight: 700;
+          margin-bottom: 20px;
+        }
+        .blog__content .blog__meta {
+          font-size: 16px;
+          color: #666;
+          margin-bottom: 30px;
+        }
+        .blog__img-wrapper {
+          margin-bottom: 30px;
+        }
+        .blog__text h2 {
+          font-size: 28px;
+          font-weight: 600;
+          margin-top: 40px;
+          margin-bottom: 15px;
+        }
+        .blog__text p {
+          font-size: 18px;
+          line-height: 1.7;
+          margin-bottom: 20px;
+        }
+      `}</style>
     </section>
   );
 };
