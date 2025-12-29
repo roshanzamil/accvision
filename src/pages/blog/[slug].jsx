@@ -25,9 +25,9 @@ const BlogDetailsContent = ({ blog }) => {
           <Image
             src={blog.image}
             alt={blog.title}
-            width={850}
-            height={560}
-            style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+            width={650}
+            height={430}
+            style={{ width: '100%', maxWidth: '650px', height: 'auto', objectFit: 'cover' }}
           />
         </div>
         <div className="blog-body">
