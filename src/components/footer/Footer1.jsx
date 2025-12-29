@@ -187,10 +187,10 @@ export default function Footer1() {
                       <Link href="/contact">contact</Link>
                     </li>
                     <li>
-                      <Link href="/career">Career</Link>
+                      <Link href="/blog">Blog</Link>
                     </li>
                     <li>
-                      <Link href="/faq">FAQs</Link>
+                      <Link href="/service">Services</Link>
                     </li>
                   </ul>
                 </div>

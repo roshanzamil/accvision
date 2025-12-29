@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import logoWhite2 from "../../../public/assets/imgs/logo/site-logo-white-2.png";
 import logoBlack from "../../../public/assets/imgs/logo/logo-black.png";
@@ -102,9 +103,6 @@ export default function Footer4() {
                       <Link href="/about">About Company</Link>
                     </li>
                     <li>
-                      <Link href="/career">Career</Link>
-                    </li>
-                    <li>
                       <Link href="/portfolio">Case Study</Link>
                     </li>
                     <li>
@@ -178,10 +176,10 @@ export default function Footer4() {
                           <Link href="/contact">contact</Link>
                         </li>
                         <li>
-                          <Link href="/career">Career</Link>
+                          <Link href="/blog">Blog</Link>
                         </li>
                         <li>
-                          <Link href="/faq">FAQs</Link>
+                          <Link href="/service">Services</Link>
                         </li>
                       </ul>
                     </div>

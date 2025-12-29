@@ -91,9 +91,6 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   <Link href="/contact">contact</Link>
                 </li>
                 <li>
-                  <Link href="/career">Career</Link>
-                </li>
-                <li>
                   <Link href="/blog">blog</Link>
                 </li>
               </ul>

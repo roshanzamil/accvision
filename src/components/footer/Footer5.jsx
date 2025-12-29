@@ -1,3 +1,4 @@
+
 import { FreeMode, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ArrowRight from "../../../public/assets/imgs/portfolio/11/arrow-right.png";
@@ -84,9 +85,6 @@ export default function Footer5() {
             <ul className="cat_links menu-anim" ref={menuAnim}>
               <li>
                 <a href="#">company</a>
-              </li>
-              <li>
-                <a href="#">career</a>
               </li>
               <li>
                 <a href="#">privacy policy</a>

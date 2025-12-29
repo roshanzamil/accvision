@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { useState } from "react";
 import { Navigation, Thumbs, FreeMode } from "swiper";
@@ -517,10 +518,10 @@ const PortfolioSwiperMobile = ({ portfolioSection, portfolioHeroImg }) => {
                               <Link href="/contact">contact</Link>
                             </li>
                             <li>
-                              <Link href="/career">Career</Link>
+                              <Link href="/blog">Blog</Link>
                             </li>
                             <li>
-                              <Link href="/faq">FAQs</Link>
+                              <Link href="/service">Services</Link>
                             </li>
                           </ul>
                         </div>
