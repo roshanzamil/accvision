@@ -1,5 +1,5 @@
+
 import { useEffect } from "react";
-import $ from "jquery";
 import { Power2, gsap } from "gsap";
 import {
   ScrollTrigger,
@@ -11,25 +11,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
 const CommonAnimation = ({ children }) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
-      $(".btn-hover").on("mouseenter", function (e) {
-        var x = e.pageX - $(this).offset().left;
-        var y = e.pageY - $(this).offset().top;
-
-        $(this).find("span").css({
-          top: y,
-          left: x,
-        });
-      });
-
-      $(".btn-hover").on("mouseout", function (e) {
-        var x = e.pageX - $(this).offset().left;
-        var y = e.pageY - $(this).offset().top;
-
-        $(this).find("span").css({
-          top: y,
-          left: x,
-        });
-      });
 
       // Common Animation
 
@@ -43,7 +24,7 @@ const CommonAnimation = ({ children }) => {
           }
           const all_btn_cirlce = gsap.utils.toArray(".btn-item");
           all_btn.forEach((btn, i) => {
-            $(btn).mousemove(function (e) {
+            btn.addEventListener("mousemove", (e) => {
               callParallax(e);
             });
             function callParallax(e) {
@@ -51,17 +32,21 @@ const CommonAnimation = ({ children }) => {
             }
 
             function parallaxIt(e, target, movement) {
-              var $this = $(btn);
-              var relX = e.pageX - $this.offset().left;
-              var relY = e.pageY - $this.offset().top;
+              var $this = btn;
+              var relX = e.pageX - $this.offsetLeft;
+              var relY = e.pageY - $this.offsetTop;
 
               gsap.to(target, 0.5, {
-                x: ((relX - $this.width() / 2) / $this.width()) * movement,
-                y: ((relY - $this.height() / 2) / $this.height()) * movement,
+                x:
+                  ((relX - $this.offsetWidth / 2) / $this.offsetWidth) *
+                  movement,
+                y:
+                  ((relY - $this.offsetHeight / 2) / $this.offsetHeight) *
+                  movement,
                 ease: Power2.easeOut,
               });
             }
-            $(btn).mouseleave(function (e) {
+            btn.addEventListener("mouseleave", (e) => {
               gsap.to(all_btn_cirlce[i], 0.5, {
                 x: 0,
                 y: 0,
